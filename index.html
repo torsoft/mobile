@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQ-MOBILE</title>
+    
+ <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  <link href="estilo.css" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+ 
+ 
+ 
+ 
+ </head>
+ 
+ <body>
+ 
+
+ 
+ <!-- PAGINA UNO -->
+ <div data-role="page" id="pageone" data-theme="b">
+ 
+	<div data-role="header"  data-position="fixed" >
+	<h2>titulo del header...</h2>
+	<a href="#pagetwo" data-role="none" data-transition="slide"class="btn_activar"><p>+</p></a>
+	
+	</div>
+	
+	<div data-role="main" class="ui-content">
+		<h2>titulo del contenido aqui...</h2>
+		<a href="#dialogo" data-transition="flow"> Go to Dialogo</a>
+		<a href="#pagetwo" data-transition="slide"> Go to pagina 2</a>
+		<br />
+	</div>
+	
+	<div data-role="content">
+		<a href="#pagetwo" data-transition="slide"> <p>+</p></a>
+	
+	<h2>Hosted Libraries</h2>
+	<p>
+
+The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries.
+
+Google works directly with the key stakeholders for each library effort and accepts the latest versions as they are released.</p>
+	
+	
+	<h2>Hosted Libraries</h2>
+	<p>
+
+The Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries.
+
+Google works directly with the key stakeholders for each library effort and accepts the latest versions as they are released.
+
+Google works directly with the key stakeholders for each library effort and accepts the latest versions as they are released.
+Google works directly with the key stakeholders for each library effort and accepts the latest versions as they are released.
+
+Google works directly with the key stakeholders for each library effort and accepts the latest versions as they are released.</p>
+	
+	
+	
+	
+	
+	</div>
+	
+	<div data-role="footer" >
+	<h2>titulo del pie de pagina...</h2>
+	</div>
+ 
+ </div>
+ 
+ <!-- PAGINA DOS -->
+ 
+ <div data-role="page" id="pagetwo">
+ 
+	<div data-role="header">
+	<h2>titulo segundo del header...</h2>
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#pageone" data-transition="slide">Uno</a></li>
+			<li><a href="#">Dos</a></li>
+			<li><a href="#">Tres</a></li>
+			<li><a href="#">Cuatro</a></li>
+		</ul>
+	</div>
+	</div>
+	
+	<div data-role="main" class="ui-content">
+	<h2>titulo del contenido aqui...</h2>
+	<a href="#dialogo" data-transition="flow"> Go to Dialogo</a>
+	<a href="#pageone" data-transition="slide" data-direction="reverse"> Go to pagina 1</a>
+	</div>
+	
+	<div data-role="footer" >
+	<h2>titulo segundo del pie de pagina...</h2>
+	</div>
+ 
+ </div>
+ 
+ <!-- UI DIALOGO -->
+ <div data-dialog="true" data-theme="b" id="dialogo">
+	<div data-role="header">	
+		<h2>Eliminar</h2>
+	</div>
+	
+	<div data-role="content">	
+		<h3>Seguro que desea eliminar la entrada?.</h3>
+			<a href="#pageone" data-role="button" data-transition="flow">Eliminar</a>
+			<a href="#pagetwo" data-role="button" data-rel="back">Cancelar</a>
+		</div>
+ </div>
+ 
+ 
+ </body>
+ </html>

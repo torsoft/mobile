@@ -1,0 +1,26 @@
+.btn_activar 
+{
+
+
+background:rgb(3,103,252);
+width:60px;
+height:60px;
+border-radius:200px;
+z-index:1000;
+text-align:center;
+text-decoration:none;
+transition:all 1s;
+}
+
+.btn_activar p
+{
+margin-top:13px;
+font-size:30px;
+color:white;
+}
+
+.btn_activar:hover
+{
+background:rgb(55,134,253);
+
+}
